@@ -1,0 +1,30 @@
+{
+  "name": "news_api",
+  "version": "1.0.0",
+  "description": "news backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-form-data": "^2.0.16",
+    "firebase-admin": "^9.6.0",
+    "image-to-base64": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "loadsh": "0.0.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0",
+    "speakeasy": "^2.0.0",
+    "uuid-v4": "^0.1.0"
+  }
+}
