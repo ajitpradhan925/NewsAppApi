@@ -1,0 +1,14 @@
+1) Clone Project
+
+2) Install the packages - yarn or npm Install
+
+3) Run - nodemon server.js
+
+
+
+
+// Deploy on heroku
+1) heroku login
+2) heroku create react-news-app-api
+3) git remote -v (To check heroku added or not)
+4) to push after commit - git push heroku
