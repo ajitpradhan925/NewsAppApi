@@ -9,7 +9,6 @@ const {
   deleteUser,
   getUserById,
   updateUser,
-  activeToken,
   addToFav,
   getFavorites,
   removeFavorite,
@@ -37,9 +36,5 @@ router.route('/addToFav/:newsId').put(protect, addToFav)
 router.route('/getFavOfUser/all').get(protect, getFavorites)
 
 router.route('/checkExists/fav/:newsId').get(protect, checkFavExistsOrNot)
-
-
-
-router.route('/active/:activeToken').get(activeToken)
 
 module.exports = router
